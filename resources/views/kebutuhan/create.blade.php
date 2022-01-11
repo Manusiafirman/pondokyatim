@@ -10,7 +10,7 @@
                         <form action="{{ route('kebutuhan.store') }}" method="post">
                             @csrf
                             <div class="form-group">
-                                <label for="">Masukan Kebutuhan Harian</label>
+                                <label for="">Masukan Kebutuhan Harian dan Bulanan</label>
                                 <input type="text" name="kebutuhan_harian"
                                     class="form-control @error('kebutuhan_harian') is-invalid @enderror">
                                 @error('kebutuhan_harian')
@@ -19,7 +19,7 @@
                                     </span>
                                 @enderror
                             </div>
-                           <div class="form-group">
+                            <div class="form-group">
                                 <label for="">Masukan Kebutuhan Obat-obatan</label>
                                 <input type="text" name="kebutuhan_obat"
                                     class="form-control @error('kebutuhan_obat') is-invalid @enderror">
@@ -48,4 +48,3 @@
 @section('js')
 
 @endsection
-

@@ -249,22 +249,22 @@ return [
         [
             'text' => 'Data Anak',
             'url' => 'admin/dataanak',
-            'icon' => 'far fa-fw fa-file',
+            'icon' => 'fas fa-fw fa-user',
         ],
         [
             'text' => 'Kegiatan',
             'url' => 'admin/kegiatan',
-            'icon' => 'far fa-fw fa-file',
+            'icon' => 'fas fa-skiing',
         ],
         [
             'text' => 'Kebutuhan',
             'url' => 'admin/kebutuhan',
-            'icon' => 'far fa-fw fa-file',
+            'icon' => 'fas fa-fw fa-box',
         ],
         [
             'text' => 'Donasi',
             'url' => 'admin/donasi',
-            'icon' => 'far fa-fw fa-file',
+            'icon' => 'fas fa-address-card',
         ],
         ['header' => 'account_settings'],
         [
