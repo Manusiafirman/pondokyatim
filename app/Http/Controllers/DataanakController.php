@@ -15,8 +15,15 @@ class DataanakController extends Controller
      */
     public function index()
     {
-         $dataanak = Dataanak::all();
-        return view('dataanak.index', compact('dataanak'));
+        $dataanak = Dataanak::all();
+
+        //Ubah ke Json
+        return response()->json([
+            'success' => true,
+            'message' => 'List Data Anak',
+            'data' => $dataanak,
+        ], 200);
+
     }
 
     /**
@@ -67,7 +74,7 @@ class DataanakController extends Controller
      */
     public function show($id)
     {
-         $dataanak = Dataanak::findOrFail($id);
+        $dataanak = Dataanak::findOrFail($id);
         return view('dataanak.show', compact('dataanak'));
     }
 
@@ -79,7 +86,7 @@ class DataanakController extends Controller
      */
     public function edit($id)
     {
-         $dataanak = Dataanak::findOrFail($id);
+        $dataanak = Dataanak::findOrFail($id);
         return view('dataanak.edit', compact('dataanak'));
     }
 
