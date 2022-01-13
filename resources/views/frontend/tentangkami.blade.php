@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>YAYASAN PONDOK YATIM</title>
+    <title>Tentang Kami</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -43,7 +43,7 @@
     <header id="header" class="fixed-top">
         <div class="container-fluid d-flex justify-content-between align-items-center">
 
-            <h1 class="logo me-auto me-lg-0"><a href="tentangkami">YAYASAN PONDOK YATIM</a></h1>
+            <h1 class="logo me-auto me-lg-0"><a href="tentangkami">Yayasan Pondok Yatim</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -52,9 +52,9 @@
                     <li><a class="" href="/">Beranda</a></li>
                     <li><a href="dataanak">Data Anak</a></li>
                     <li><a href="tentangkami">Tentang Kami</a></li>
-                    <li><a href="resume.html">Donasi</a></li>
-                    <li><a href="services.html">Kegiatan</a></li>
-                    <li><a href="portfolio.html">Kebutuhan</a></li>
+                    <li><a href="resume.html">Kegiatan</a></li>
+                    <li><a href="services.html">Kebutuhan</a></li>
+                    <li><a href="portfolio.html">Donasi</a></li>
                     <li><a href="kontak">Kontak</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -64,20 +64,60 @@
 
     </header><!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
-        <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-            <h1>Selamat Datang Di Yayasan Pondok Yatim Kami</h1>
-            <a href="tentangkami" class="btn-about">Tentang Kami</a>
-        </div>
-    </section><!-- End Hero -->
+    <main id="main">
+
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Tentang Kami</h2>
+                    <p>Anak adalah Amanah Tuhan yang seharusnya dibesarkan dengan layak, penuh kasih sayang dan
+                        diberikan masa depan penuh harapan.
+                        Program Layanan yang kami laksanakan dalam upaya mewujudkan kesejahteraan Anak. </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="resume-item pb-0">
+                            <h4>Visi</h4>
+                            <ul>
+                                <li>
+                                    <p>Terwujudnya Perlidungan, Perawatan dan pengasuhan Anak sejak dalam kandungan
+                                        maupun sesudah dilahirkan.</p>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="resume-item">
+                            <h4>Misi</h4>
+                            <ul>
+                                <li>Melindungi dan memberikan naungan tempat tinggal dan penghidupan anak yatim piatu
+                                </li>
+                                <li>Memberikan binaan dan pendidikan bagi anak yatim piatu agar memiliki ilmu
+                                    pengetahuan formal atauun non formal untuk bekal hidup mereka dihari kedepan</li>
+                                <li>Memberikan makanan yang sehat dan bergizi</li>
+                                <li>Memberikan pendidikan rohani </li>
+                                <li>Dan memberikan bimbingan psikologis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Resume Section -->
+
+    </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>Firman Romansyah & Adya Eka Amelia</span></strong>
+                &copy; Copyright <strong><span>Firman Romansyah & Adya Eka Amelia</span></span></strong>.
             </div>
+        </div>
     </footer><!-- End  Footer -->
 
     <div id="preloader"></div>

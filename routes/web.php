@@ -43,3 +43,10 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], func
     Route::resource('donasi', DonasiController::class);
 
 });
+
+Route::get('tentangkami', function () {
+    return view('frontend.tentangkami');
+});
+Route::get('kontak', function () {
+    return view('frontend.kontak');
+});

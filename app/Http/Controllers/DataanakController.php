@@ -16,13 +16,14 @@ class DataanakController extends Controller
     public function index()
     {
         $dataanak = Dataanak::all();
+        return view('dataanak.index', compact('dataanak'));
 
         //Ubah ke Json
-        return response()->json([
-            'success' => true,
-            'message' => 'List Data Anak',
-            'data' => $dataanak,
-        ], 200);
+        //return response()->json([
+        //  'success' => true,
+        //'message' => 'List Data Anak',
+        //'data' => $dataanak,
+        //], 200);
 
     }
 

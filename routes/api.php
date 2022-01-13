@@ -19,4 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('dataanak2', [DataanakController::class, 'index']);
+//api data anak
+Route::resource('dataanak2', ApiController::class);
